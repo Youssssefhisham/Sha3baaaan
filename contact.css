@@ -1,0 +1,117 @@
+*{
+    margin: 0%;
+    background-color: rgba(195,177,143,55);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.upper-img{
+    background-image: url(WhatsApp\ Image\ 2025-04-19\ at\ 18.15.00_1b978e47.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70%;
+    margin-top: -10px;
+    
+}
+.contact-us{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 90%;
+    margin: auto;
+    height: 99%;
+    margin-bottom: 0px;
+}
+.info{
+    background-color: rgba(94 , 78 , 52 , 100);
+}
+.pheron{
+    background-image: url(WhatsApp\ Image\ 2025-04-21\ at\ 16.42.28_fffc8524.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* margin-left: 5px; */
+}
+.info_box{
+    display: grid;
+    grid-template-rows: 5% 5% 5% 25% 10%;
+    background-color: rgba(255 , 255 , 255 ,63);
+width: 80%;
+row-gap: 10%;
+margin-right: auto;
+margin-left: auto;
+margin-top: 20px;
+height: 90%;
+}
+.grou{
+    background-color: black;
+    margin-top: 60px;
+}
+
+
+.FULL_NAME{
+    background-color: rgba(255 , 255 , 255 ,63);
+    margin-left: 20px;
+
+}
+.E-MAIL{
+    background-color: rgba(255 , 255 , 255 ,63);
+    margin-left: 20px;
+}
+.PROBLEM{
+    background-color: rgba(255 , 255 , 255 ,63);
+    margin-left: 20px;
+}
+.SUBMIT{
+    background-color: rgba(255 , 255 , 255 ,63);
+    margin: 0%;
+    margin-top: 300px;
+    margin-left: 200px;
+}
+.SUBMIT-BOtton{
+    background-color: rgba(94, 78, 52, 100);
+    color: rgba(217 , 217 , 217 ,100);
+    border: none;
+    margin: 0%;
+    margin-left: 55px;
+    font-family: arial;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    height: 60px;
+    width: 150px;
+    border-radius: 30px;
+    transition: background-color 0.15s,
+                color 0.15s , 
+                opacity 0.15s,
+                box-shadow 0.15s;
+    
+}
+.SUBMIT-BOtton:hover{
+    background-color: rgba(217 , 217 , 217 ,100);
+    color: rgba(94 , 78 , 52 , 100);
+    box-shadow: 18px 20px 10px 0px;
+    
+}
+.SUBMIT-BOtton:active{
+    opacity: 0.75;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+.map
+{
+    width: 95%;
+    margin-left: 90px;
+}
+.mapbox{
+    width: 95%;
+}

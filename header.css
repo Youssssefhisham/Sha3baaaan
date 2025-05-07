@@ -1,0 +1,98 @@
+body {
+    font-family: Arial;
+    padding-top: 100px;
+    
+}
+
+/* Fixed orange header */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #FFB703;
+    padding: 10px;
+    z-index: 100;
+}
+
+/* Navigation layout */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #FFB703;
+
+    
+}
+
+/* Logo */
+.logo-container img {
+    height: 70px;
+
+
+
+}
+
+/* Menu items */
+.nav-links ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    background-color: #FFB703;
+
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: block;
+    background-color: #FFB703;
+
+}
+
+.nav-links a:hover {
+    background: white;
+    border-radius: 4px;
+    
+}
+
+/* Dropdown menus */
+.nav-links ul ul {
+    position: absolute;
+    background: #776969 url('/Images/menu-image.jpg');
+    background-size: cover;
+    width: 200px;
+    display: none;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+/* Nested dropdowns go LEFT */
+.nav-links ul ul ul {
+    left: 202px; /* Position to the left */
+    top: 0;
+    
+}
+
+.nav-links ul ul a {
+    background: rgba(109, 92, 48, 0.85);
+    margin: 2px;
+    padding: 8px 12px;
+}
+
+.nav-links li:hover > ul {
+    display: block;
+}
+
+/* Mobile version */
+@media (max-width: 768px) {
+    body { padding-top: 150px; }
+    .navbar { flex-direction: column; }
+    .nav-links ul { flex-direction: column; }
+    .nav-links ul ul {
+        position: static;
+        background: #FFD166;}
+}
